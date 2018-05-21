@@ -1,0 +1,15 @@
+package com.visa.req.visareq;
+
+import java.lang.Number;
+
+rule "Second evaluation"
+	dialect "mvel"
+	ruleflow-group "Confirmation"
+	no-loop true
+	when
+		visasub : visasubmite( salary >= 5000I )
+	then
+		modify( visasub ) {
+				setSecondcheck( true )
+		}
+end

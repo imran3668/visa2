@@ -1,0 +1,36 @@
+
+<form id="1151105682">
+<property name="name" value="visareq.visarequestValidation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="visasubmitereq_gender" type="InputText" id="743368936">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gender (visasubmitereq)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="visasubmitereq/gender"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="visasubmitereq_job" type="InputText" id="1332175703">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;job (visasubmitereq)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="visasubmitereq/job"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="visasubmitereq_salary" type="InputTextBigInteger" id="931512894">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salary (visasubmitereq)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="visasubmitereq/salary"/>
+<property name="fieldClass" value="java.math.BigInteger"/>
+</field>
+<field position="3" name="visasubmitereq_visalimit" type="InputTextBigInteger" id="23812089">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;visalimit (visasubmitereq)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="visasubmitereq/visalimit"/>
+<property name="fieldClass" value="java.math.BigInteger"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="managerapproval" value="com.visa.req.visareq.ManagerApproval" id="managerapproval"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="visasubmitereq" value="com.visa.req.visareq.visasubmite" id="visasubmitereq"/>
+</form>

@@ -1,0 +1,13 @@
+package com.visa.req.visareq;
+
+import java.lang.Number;
+
+rule "Initial Evaluation"
+	dialect "mvel"
+	ruleflow-group "evaluation"
+	no-loop true
+	when
+		visasub : visasubmite( gender == "male" , job == "doctor" )
+	then
+		visasub.setFirstPass( true );
+end
